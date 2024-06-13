@@ -10,10 +10,6 @@ from .views import (
     VerFabricanteListAPIView,
     VerClienteListAPIView
 )
-from rest_framework.routers import DefaultRouter
-
-#router = DefaultRouter()
-#router.register(r'lista-productos', ListProductoListAPIView, basename='lista-productos')
 
 urlpatterns = [
     path('productos/', ProductosAPIView.as_view()),
@@ -24,4 +20,4 @@ urlpatterns = [
     path('crear-orden/', OrdenAPIView.as_view()),
     path('fabricantes/', VerFabricanteListAPIView.as_view()),
     path('clientes/', VerClienteListAPIView.as_view()),
-]# + router.urls
+]

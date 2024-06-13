@@ -50,6 +50,7 @@ INSTALLED_APPS = [
     'django_filters',
     'rest_framework_simplejwt',
     'pgtrigger',
+    'drf_yasg',
     'inventario',
     'principal',
     'usuarios',
