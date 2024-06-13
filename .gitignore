@@ -1,2 +1,70 @@
-.env
-.sqlite3
+# Archivos de sistema
+*.DS_Store
+*.swp
+*.swo
+Thumbs.db
+
+# Archivos de entorno virtual
+venv/
+env/
+ENV/
+.venv/
+.ENV/
+
+# Archivos de configuración del entorno
+*.env
+.env.local
+.env.production
+.env.*.local
+
+# Archivos de dependencias
+*.log
+*.pot
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+
+# Archivos y directorios generados por el sistema
+*.sqlite3
+db.sqlite3
+/media/
+*.pyo
+*.pyd
+
+# Archivos de configuración de IDEs
+.vscode/
+.idea/
+.project
+.pydevproject
+
+# Archivos de configuración de herramientas
+*.pylint.d
+.cache/
+coverage/
+.tox/
+*.coverage
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+dist/
+build/
+*.egg-info/
+pip-log.txt
+
+# Archivos de migraciones (puedes ignorar las migraciones iniciales si lo prefieres)
+**/migrations/__pycache__/
+**/migrations/*.pyc
+**/migrations/*.pyo
+**/migrations/*.pyd
+**/migrations/*.log
+**/migrations/*.pot
+**/migrations/*.swp
+**/migrations/*.swo
+**/migrations/*.sqlite3
+**/migrations/db.sqlite3
+
+# Archivos de la carpeta media (generalmente se generan en tiempo de ejecución)
+media/
